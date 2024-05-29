@@ -1,0 +1,40 @@
+.resultado-container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .evento-card {
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 500px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  .evento-card img {
+    width: 100%;
+    height: auto; 
+    padding: 0;
+  }
+  
+ .evento-card p {
+    position: relative; 
+    color: black;
+    z-index: 2;
+  }
+  
+  h4{
+    color: black;
+    font-weight: bolder;
+    margin: 0;
+    text-align: left;
+  }
+
+  p{
+    margin: 0;
+    text-align: left;
+  }
+  

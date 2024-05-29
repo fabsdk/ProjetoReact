@@ -1,0 +1,108 @@
+[
+    {
+        "concert": "Back For You Tour",
+        "artist": "One Direction",
+        "date": "15/05/2025 e 16/05/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/DBPWR1N.png"
+
+    },
+    {
+        "concert": "The 5 Seconds of Summer Show",
+        "artist": "5 Seconds of Summer",
+        "date": "19/04/2025 e 12/04/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/kWx7sgy.png"
+
+    },
+    {
+        "concert": "The Pains Of Growing Tour",
+        "artist": "Alessia Cara",
+        "date": "22/07/2025 e 23/07/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/Aq4FjCy.png"
+    },
+    {
+        "concert": "Dangerous Woman Tour",
+        "artist": "Ariana Grande",
+        "date": "26/02/2025 e 27/02/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/D4WJoZF.png"
+    },
+    {
+        "concert": "Happier Than Ever Tour",
+        "artist": "Billie Eilish",
+        "date": "22/05/2025 e 23/05/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/z26jm9v.png"
+    },
+    {
+        "concert": "Live in Brazil",
+        "artist": "Bruno Mars",
+        "date": "05/10/2025 e 06/10/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/iKn1RZP.png"
+    },
+    {
+        "concert": "Divide Tour",
+        "artist": "Ed Sheeran",
+        "date": "05/11/2025 e 06/11/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/VSzd0my.png"
+    },
+    {
+        "concert": "Refil Tour",
+        "artist": "Eminem",
+        "date": "05/12/2025 e 06/12/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/BpUldPn.png"
+    },
+    {
+        "concert": "SuperTurne Tour",
+        "artist": "Jão",
+        "date": "05/02/2025 e 06/02/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/Z09Lm92.png"
+    },
+    {
+        "concert": "Justice World Tour",
+        "artist": "Justin Bieber",
+        "date": "05/03/2025 e 06/03/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/uORAh5A.png"
+    },
+    {
+        "concert": "Linkin Park Tour",
+        "artist": "Linkin Park",
+        "date": "01/09/2025 e 03/09/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/z81hesG.png"
+    },
+    {
+        "concert": "Guts World Tour",
+        "artist": "Olivia Rodrigo",
+        "date": "01/07/2025 e 03/07/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/y6kxHmn.png"
+    },
+    {
+        "concert": "If Y'll Weren't Here I'd Be Crying Tour",
+        "artist": "Post Malone",
+        "date": "01/08/2025 e 03/08/2025",
+        "location": "São Paulo e Rio de Janeiro",
+        "price": "A partir de R$ 350,00",
+        "image": "https://i.imgur.com/AfFakTj.png"
+    }
+]

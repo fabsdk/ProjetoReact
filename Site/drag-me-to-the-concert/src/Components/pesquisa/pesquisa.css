@@ -1,0 +1,36 @@
+/* SearchBar.css */
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-right: none;
+    outline: none;
+    text-align: center;
+  }
+  
+  .search-button {
+    width: 400px; /* Ajuste para a largura desejada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: #03AED2;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .search-button i {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  }
+  

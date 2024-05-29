@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    background-color: #03AED2;
+    padding: 0;
+    height: 10vh;
+}
+
+.navbar img {
+    height: 75%;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 35px;
+    color: white;
+    text-decoration: none;
+    background-color: #03AED2;
+    cursor: pointer;
+    font-size: 140%;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #68D2E8;
+}
+
+  
