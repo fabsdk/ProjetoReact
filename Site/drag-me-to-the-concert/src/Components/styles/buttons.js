@@ -58,3 +58,8 @@ export const ButtonCadastro = styled(ButtonLogin)` /* Herda as propriedades do B
     width: 150px; /* Largura maior para o texto do cadastro */
     /* As outras propriedades são herdadas do ButtonLogin */
 `;
+
+export const ButtonEnviar = styled(ButtonLogin)` 
+    width: 180px;
+    height: 50px;
+`;

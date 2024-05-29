@@ -1,2 +1,6 @@
-POST http://localhost:8080/addUser
+POST http://localhost:8080/addRequest
 Content-Type: application/json
+
+{
+"name":"ASDFVBGH","email":"ZXCVB@gmail.com","phone":"11959886102","subject":"sdfvgbhj","description":"<p>wqertyukli</p>"
+}

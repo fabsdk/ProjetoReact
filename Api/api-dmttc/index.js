@@ -3,6 +3,7 @@
 const express = require('express');
 const eventosServices = require('./services/eventosServices');
 const usersServices = require('./services/usersServices');
+const supportServices = require('./services/supportServices');
 const { checkEmailExists } = require('./services/usersServices');
 const body = require('body-parser');
 const cors = require('cors');
@@ -33,20 +34,14 @@ app.get('/buscarEventosPorArtista/:artist', (req, res)=>{
 });
 
 
-app.post('/addUser', (req, res)=>{
-    const {name, email, password} = req.body;
-    if(name && password && email){
-        if(checkEmailExists(email)){
-            res.status(400).send('Email já cadastrado');
-            return;
-        }
-        else {
-            usersServices.addUser(name, email, password);
-            res.status(200).send('Usuário cadastrado com sucesso');
-        }
+app.post('/addRequest', (req, res)=>{
+    const {name, email, phone, subject, description} = req.body;
+    if(name && email && phone && subject && description){
+        supportServices.addRequest(name, email, phone, subject, description);
+        res.status(200).send('Solitação cadastrada com sucesso');
     }
     else {
-        res.status(400).send('Erro ao cadastrar usuário');
+        res.status(400).send('Erro ao cadastrar solicitação');
     }
 })
 
@@ -67,5 +62,21 @@ app.post('/login', async (req, res)=>{
     }
 })
 
+app.post('/addUser', (req, res)=>{
+    const {name, email, password} = req.body;
+    if(name && password && email){
+        if(checkEmailExists(email)){
+            res.status(400).send('Email já cadastrado');
+            return;
+        }
+        else {
+            usersServices.addUser(name, email, password);
+            res.status(200).send('Usuário cadastrado com sucesso');
+        }
+    }
+    else {
+        res.status(400).send('Erro ao cadastrar usuário');
+    }
+})
 
 app.listen(8080)

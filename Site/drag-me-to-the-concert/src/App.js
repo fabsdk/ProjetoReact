@@ -5,16 +5,17 @@ import Highlight from './Components/importantEvent/highlight';
 import SearchBar from './Components/pesquisa/pesquisa';
 import Login from './Components/login/login';
 import Cadastro from './Components/cadastro/cadastro';
-import HomePage from './Components/home/home';
 import HomeBar from './Components/home/homeBar';
+import Suporte from './Components/suporte/suporte';
+import SuporteBar from './Components/suporte/suporteBar';
 
 function App() {
   return (
     <div className='App'>
-       {window.location.pathname !== '/home' && <MenuBar />}
       <Routes>
         <Route path='/' element={
           <>
+          <MenuBar />
             <header className='App-header'>
             <Highlight />
             <SearchBar />
@@ -22,22 +23,32 @@ function App() {
           </>
         } />
 
-       <Route path='/login' element={
+        <Route path='/login' element={
           <>
+          <MenuBar />
           <Login />
           </>
         } />
 
        <Route path='/Cadastro' element={
           <>
+          <MenuBar />
           <Cadastro />
           </>
         } />
 
         <Route path='/home' element={
+          <div className='fundo'>
+            <HomeBar />
+            <Highlight />
+            <SearchBar />
+          </div>
+        } />
+
+        <Route path='/suporte' element={
           <>
-          <HomeBar />
-          <HomePage />
+            <SuporteBar />
+            <Suporte />
           </>
         } />
 
